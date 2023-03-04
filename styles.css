@@ -1,0 +1,28 @@
+*{
+    font-family:'playfair Display',serif;
+}
+.bg-music{
+    position: absolute;
+    top: 64px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.btn{
+    background-color: transparent;
+    color: rgb(35, 32, 209);
+    font-size: 78px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    opacity: .3;
+    transition: all linear .2s;
+}
+.btn:hover{
+    opacity: 5;
+}
+.fa-pause-circle-o{
+    display: none;
+}
+
